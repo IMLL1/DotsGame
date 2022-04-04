@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+	<head>
+		<meta charset="utf-8">
+		<title>Dots Game</title>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="styles.css">
+		<script src="processing.js"></script>
+	</head>
+	<body>
+		<header>
+			<h1><center>Dots Game!</center></h1><br>
+		</header>
+			<section id="content">
+				<center><canvas id="Game" data-processing-sources="Game_Upload.pde">
+				</canvas></center>
+		    </section>
+	    	<footer>
+		</footer>
+	</body>
+</html>
+<!--
+v1.0: initial publish
+v1.0.1: the website now works
+v1.0.2: the website now includes the canvas, instead of being blank
+v1.1: the canvas changes to fit the screen + better speed/transparency curves
+v1.1.1: things get harder much more quickly
+v1.1.2: the canvas fits the screen again
+v2.0: there's now a score mechanism, as well as a lose mechanism. Also instructions.
+v2.1: still hard, but slightly less so
+v2.2: instead of adding a dot every 3 revivals, it's every 5.
+v2.3: you can now restart after losing
+v2.3.1: the white dot has a lower top speed now, and takes longer to get there.
+v2.3.2: clarified the instructions.
+v2.3.3: clarified 'em some more
+v2.3.4: made it so you have to press spacebar instead of any key to start/restart the game. This way you can screenshot without it restarting.
+v2.4.0: dots now won't die (or even age) if they're partially offscreen.
+v2.5.0: time now resets when you restart, dots have different lifetimes, you die at 20% mortality instead of at 10 dead dots.
+v2.5.1: bugfixes
+v2.5.2: updated webpage title from "Dots" to "Dots Game"
+v2.5.3: more bugfixes
+v2.6.0: balls now change speed and lifetimes as you regenerate them
+v2.6.1: fixed problem with instructions running off the screen
+v2.7: updated how dead dots are shown (will update instructions to match later)
+v2.8: fixed instructions and collission mechanics
+->
